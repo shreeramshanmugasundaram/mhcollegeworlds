@@ -1,0 +1,23 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik:wght@600&display=swap");
+
+/* roots */
+:root {
+  --pri-clr: #6220d9;
+  --try-now: #ff7a00;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+.notfound{
+  margin:  0 auto 0 auto;
+  font-size: 4rem;
+  width: 100vh;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

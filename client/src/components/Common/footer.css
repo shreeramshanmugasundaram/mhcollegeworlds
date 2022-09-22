@@ -1,0 +1,45 @@
+.illustration{
+	font-size: 0.3rem;
+}
+.footer__wrap{
+	width: 100%;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	width: min(75rem,90%);
+	margin: 0.5rem auto 0 auto ;
+	justify-content: center;
+	background-color: antiquewhite;
+
+
+}
+.footer > *{
+	text-align: center;
+	padding:0.5rem;
+}
+.contact>*{
+padding:0.5rem;
+}
+.contact h3{
+	font-size: 1rem;
+}
+.social__media>*{
+	font-size:1.2rem;
+	padding: 1rem;
+	color: black;
+}
+
+@media screen and (min-width:45rem) {
+	.footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 1rem;
+	}
+	.contact{
+		display: flex;
+		gap: 1rem;
+	}
+}

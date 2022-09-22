@@ -1,0 +1,38 @@
+MiddleWare :
+# 401 : unauthorized
+
+Routes:
+http://localhost:5000/user/create
+
+# 400 :insufficient inputs
+# 400 :user already exisit
+# 201 :created successfully
+# 500 :Server Error
+
+http://localhost:5000/user/login
+
+# 400 :insufficient inputs
+# 400 :user does not exisit
+# 400 :invalid credentials 
+# 200 :vaild user
+# 500 :server Error
+
+http://localhost:5000/user/collegelist
+
+# 400 :insufficient inputs
+# 401 : unauthorized
+# 200 : got the college
+
+http://localhost:5000/payment/create-order
+
+# 500 : something went wrong with order
+
+http://localhost:5000/payment/pay-order
+
+#200 : successfully paid
+#500 : Server Error
+>> models
+ =>userSchema 
+ contain { name, password, phone, isPaid,amount,razorpay: {orderId,paymentId,signature,}}
+
+>> token consist of : phone and id of user 

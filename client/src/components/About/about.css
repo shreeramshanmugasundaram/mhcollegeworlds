@@ -1,0 +1,11 @@
+.aboutus {
+    margin: 0 auto 0 auto;
+    width: min(60rem,90%);
+    padding: 2rem;
+}
+.aboutus > h2{
+    margin-bottom: 2rem;
+}
+.aboutus > p{
+padding: 0.5rem;
+}

@@ -1,0 +1,46 @@
+.collect__select{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0.2rem;
+	margin-bottom: 0.6rem;
+}
+.collect__select select{
+ padding: 0.4rem;
+ background-color: antiquewhite;
+ border-radius: 4px;
+ font-size: 1rem;
+}
+.collect__select select:focus{
+	background-color: beige;
+}
+.collect__select label{
+font-size: 1rem;
+font-weight: 600;
+}
+.collect__districtHeading{
+	font-size: 0.9rem;
+	font-weight: 700;
+	padding:1rem;
+}
+.input__percentile{
+	padding:1rem 0 0 0;
+	width: 100%;
+}
+.input__percentile input{
+	width: 100%;
+	padding: 0.2rem;
+	border: solid 1px ;
+	border-radius: 4px;
+	outline: none;
+	box-shadow: inset none;
+}
+.input__percentile label{
+	width: 100%;
+	margin-bottom: 0.2rem;
+}
+.addon__premium{
+	position: absolute;
+	top :0rem;
+}
+

@@ -1,0 +1,88 @@
+.premium__wrap {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.premium__cir {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--pri-clr);
+  top: 0%;
+  left: -1.5rem;
+}
+.premium {
+  overflow: hidden;
+  max-width: min(25rem, 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.title {
+  width: 100%;
+}
+.premium form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form__group {
+  width: 100%;
+}
+.premium p {
+  font-size: 0.8rem;
+  color: #333;
+}
+.premium p span {
+  color: #000;
+  font-weight: 600;
+}
+.premium__input {
+  width: 100%;
+  margin: 0 0 1rem 0;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem;
+  background-color: #ddd;
+  color: #333;
+  outline: none;
+}
+.premium__input:focus {
+  background-color: antiquewhite;
+}
+.addon__input {
+  width: 100%;
+  margin-top: 1rem;
+}
+.form__error {
+  font-size: 0.6rem;
+  color: red;
+}
+@media screen and (min-width: 45rem) {
+  .premium__cir {
+    width: 80vh;
+    height: 80vh;
+    left: -40vh;
+  }
+  .premium {
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+  }
+}
